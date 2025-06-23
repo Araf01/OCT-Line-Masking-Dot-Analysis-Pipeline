@@ -22,7 +22,7 @@ The project is composed of several modular scripts, each responsible for a speci
 ## 🔧 Installation
 ```bash
 # 1) Clone this repo and enter it
-git clone https://github.com/Araf01/Simple-Segmentation-Toolkit
+git clone https://github.com/Araf01/Simple-Segmentation-Toolkit](https://github.com/Araf01/OCT-Line-Masking-Dot-Analysis-Pipeline
 cd Simple-Segmentation-Toolkit
 
 # 2) Create & activate a Python 3.10.8 virtual environment
