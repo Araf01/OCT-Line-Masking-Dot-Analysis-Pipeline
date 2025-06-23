@@ -1,2 +1,44 @@
 # OCT-Line-Masking-Dot-Analysis-Pipeline
-This repository presents a complete pipeline for automated segmentation and analysis of OCT (Optical Coherence Tomography) images. It includes two methods for generating segmentation masks, followed by detailed line extraction, dot placement, and statistical export for downstream analysis.
+
+This repository contains a suite of Python scripts designed for advanced image processing and analysis, particularly focusing on segmentation, enhancement, and feature extraction from grayscale images. The pipeline is built using popular libraries like OpenCV, NumPy, scikit-image, and TensorFlow, offering robust functionalities for various image analysis tasks.
+
+## Project Structure and Overview
+The project is composed of several modular scripts, each responsible for a specific stage in the image processing workflow:
+
+- **image_enhancer.py: Handles image loading, enhancement, and preparation.
+
+- **predict.py: Performs patch-wise semantic segmentation using a pre-trained TensorFlow/Keras model.
+
+- **createmask.py: Generates binary masks from enhanced grayscale images.
+
+- **mask_cleaner.py: Cleans and refines generated binary masks by removing spurious components.
+
+- **line_dot_marker.py: Detects and marks linear components within binary masks, outputting data and visualization
+
+## Setup and Installation
+- **Python 3.10.8**  
+- `git`, `pip`
+
+## 🔧 Installation
+```bash
+# 1) Clone this repo and enter it
+git clone https://github.com/Araf01/Simple-Segmentation-Toolkit
+cd Simple-Segmentation-Toolkit
+
+# 2) Create & activate a Python 3.10.8 virtual environment
+# macOS/Linux:
+python3.10 -m venv .venv
+#Windows:
+py -3.10 -m venv .venv
+
+# macOS/Linux:
+source .venv/bin/activate
+# Windows:
+.venv\Scripts\Activate.ps1
+
+# 3) Upgrade pip & install dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
+
+#4) Run demo.py 
+```
