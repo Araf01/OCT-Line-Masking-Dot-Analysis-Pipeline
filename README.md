@@ -15,6 +15,8 @@ The project is composed of several modular scripts, each responsible for a speci
 
 - **line_dot_marker.py: Detects and marks linear components within binary masks, outputting data and visualization
 
+![oct](https://github.com/user-attachments/assets/f17775c8-4728-4138-9f65-0e8d5fd4b134)
+
 ## Setup and Installation
 - **Python 3.10.8**  
 - `git`, `pip`, `WSL`
