@@ -17,19 +17,19 @@ The project is composed of several modular scripts, each responsible for a speci
 
 ## Setup and Installation
 - **Python 3.10.8**  
-- `git`, `pip`
+- `git`, `pip`, `WSL`
 
 ## 🔧 Installation
 ```bash
 # 1) Clone this repo and enter it
 git clone https://github.com/Araf01/OCT-Line-Masking-Dot-Analysis-Pipeline.git
-cd Simple-Segmentation-Toolkit
+cd OCT-Line-Masking-Dot-Analysis-Pipeline
 
 # 2) Create & activate a Python 3.10.8 virtual environment
 # macOS/Linux:
 python3.10 -m venv .venv
 #Windows:
-py -3.10 -m venv .venv
+py -3.10 -m venv .venv (or python -m venv .venv)
 
 # macOS/Linux:
 source .venv/bin/activate
@@ -37,8 +37,11 @@ source .venv/bin/activate
 .venv\Scripts\Activate.ps1
 
 # 3) Upgrade pip & install dependencies
-pip install --upgrade pip
+pip install --upgrade pip 
 pip install -r requirements.txt
 
-#4) Run demo.py 
+# 4)Download Microsoft Visual C++ Redistributable if needed
+ #https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
+
+#5) Run demo.py (click yes if it asks to install ipykernel)
 ```
