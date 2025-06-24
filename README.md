@@ -5,15 +5,15 @@ This repository contains a suite of Python scripts designed for advanced image p
 ## Project Structure and Overview
 The project is composed of several modular scripts, each responsible for a specific stage in the image processing workflow:
 
-- **image_enhancer.py: Handles image loading, enhancement, and preparation.
+- image_enhancer.py: Handles image loading, enhancement, and preparation.
 
-- **predict.py: Performs patch-wise semantic segmentation using a pre-trained TensorFlow/Keras model.
+- predict.py: Performs patch-wise semantic segmentation using a pre-trained TensorFlow/Keras model.
 
-- **createmask.py: Generates binary masks from enhanced grayscale images.
+- createmask.py: Generates binary masks from enhanced grayscale images.
 
-- **mask_cleaner.py: Cleans and refines generated binary masks by removing spurious components.
+- mask_cleaner.py: Cleans and refines generated binary masks by removing spurious components.
 
-- **line_dot_marker.py: Detects and marks linear components within binary masks, outputting data and visualization
+- line_dot_marker.py: Detects and marks linear components within binary masks, outputting data and visualization
 
 ![oct](https://github.com/user-attachments/assets/f17775c8-4728-4138-9f65-0e8d5fd4b134)
 
